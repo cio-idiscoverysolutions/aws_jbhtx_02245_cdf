@@ -1,7 +1,7 @@
 view: es_states_by_driver {
   sql_table_name: dbo.es_States_ByDriver ;;
 
-  measure: count {
+  measure: cnt {
     type: number
     sql: ${TABLE}.count ;;
   }
