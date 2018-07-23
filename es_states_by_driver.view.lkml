@@ -11,8 +11,5 @@ view: es_states_by_driver {
     sql: ${TABLE}.State ;;
   }
 
-  measure: count {
-    type: count
-    drill_fields: []
-  }
+
 }
